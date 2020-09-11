@@ -1,0 +1,6 @@
+#include "01-level1.pwn"
+#include "02-level2.pwn"
+#include "03-level3.pwn"
+#include "04-level4.pwn"
+#include "05-level5.pwn"
+#include "99-rcon.pwn"

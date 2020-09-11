@@ -1,0 +1,1 @@
+#include "admin\00-admin.pwn"
