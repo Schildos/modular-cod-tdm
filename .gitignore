@@ -43,6 +43,10 @@ crashinfo.txt
 # Ban list
 samp.ban
 
+# Production MySQL Data
+
+gamemodes/cod/config/02-mysql-prod.pwn
+
 #
 # Common files
 #

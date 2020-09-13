@@ -4,11 +4,11 @@
 *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
 */
 
-#define         COLor_RED               0xFF0000FF
+#define         COLOR_RED               0xFF0000FF
 #define         COLOR_GREEN             0x00FF00FF
 #define         COLOR_BLUE              0x0000FFFF
-#define         COLOR_BLACKC            0x000000FF
-#define         OLOR_WHITE              0xFFFFFFFF
+#define         COLOR_BLACK            0x000000FF
+#define         COLOR_WHITE              0xFFFFFFFF
 #define         COLOR_YELLOW            0xFFFF00FF
 #define         COLOR_CONNECT           0xFFFFFF80
 

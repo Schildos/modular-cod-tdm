@@ -27,7 +27,9 @@ stock bool:sql_error = false;
 /* ** Main ** */
 hook OnScriptInit()
 {
-    if(mysql_errno((dbHandle = mysql_connect(MYSQL_HOST, MYSQL_USER, MYSQL_PASS, MYSQL_DATABASE))))
+    new MySQLOpt:option_id = mysql_init_options();
+	mysql_set_option(option_id, AUTO_RECONNECT, true);
+    if(mysql_errno((dbHandle = mysql_connect(MYSQL_HOST, MYSQL_USER, MYSQL_PASS, MYSQL_DATABASE, option_id))))
     {
         print("[MYSQL]: Couldn't connect to MySQL Database.");
         sql_error = true;
@@ -35,6 +37,7 @@ hook OnScriptInit()
     else{
         print("[MYSQL]: Connection to Database successful.");
         print("[MYSQL]: Preparing Database...");
+        DatabaseInit();
     }
     return 1;
 }
@@ -59,5 +62,5 @@ public DatabaseInit()
 {
 //    new query[2700];
     mysql_tquery_file( dbHandle, "cod\\config\\tables.sql");
-    print("Databases were initialized successfully.");
+    print("Database initialized successfully.");
 }

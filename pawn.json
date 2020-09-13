@@ -5,12 +5,13 @@
 	"output": "gamemodes\\cod.amx",
 	"dependencies": [
 		"sampctl/samp-stdlib",
-		"Sreyas-Sreelal/samp-bcrypt",
 		"pawn-lang/YSI-Includes",
 		"southclaws/zcmd",
 		"pBlueG/SA-MP-MySQL",
 		"maddinat0r/sscanf",
-		"samp-incognito/samp-streamer-plugin"
+		"samp-incognito/samp-streamer-plugin",
+		"lassir/bcrypt-samp",
+		"zeex/samp-plugin-crashdetect"
 	],
 	"runtime": {
 		"version": "0.3.7",

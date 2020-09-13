@@ -1,10 +1,11 @@
 //Includes
 
 #include <a_samp>
-#include <../../dependencies/SA-MP-MySQL/a_mysql.inc>
-#include <../../dependencies/samp-bcrypt/include/samp_bcrypt.inc>
-#include <../../dependencies/sscanf/sscanf2.inc>
-#include <../../dependencies/zcmd/zcmd.inc>
+#include <a_mysql>
+#include <bcrypt>
+#include <sscanf2>
+#include <zcmd>
+#include <YSI_Data\y_iterate>
 
 //Internal
 #include "cod\config\00-config.pwn"
@@ -17,7 +18,7 @@
 main()
 {
 	print("\n----------------------------------");
-	print(" SAMP World at War by Schildos");
+	print(" SAMP World at War by Schildos\n\r");
 	print("----------------------------------\n");
 }
 

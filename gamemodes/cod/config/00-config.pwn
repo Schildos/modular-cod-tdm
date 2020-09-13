@@ -4,7 +4,7 @@
 *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~**~*~*~*
 */
 
-#include            "01-mysql.pwn"
-#include            "02-server.pwn"
-#include            "03-player.pwn"
-#include            "04-colors.pwn"
+#include            "01-colors.pwn"
+#include            "02-mysql-prod.pwn"
+#include            "03-server.pwn"
+#include            "04-player.pwn"
