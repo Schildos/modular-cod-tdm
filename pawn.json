@@ -1,8 +1,8 @@
 {
 	"user": "Schildos",
 	"repo": "modular-cod-tdm",
-	"entry": "gamemodes\\cod.pwn",
-	"output": "gamemodes\\cod.amx",
+	"entry": "gamemodes/cod.pwn",
+	"output": "gamemodes/cod.amx",
 	"dependencies": [
 		"sampctl/samp-stdlib",
 		"pawn-lang/YSI-Includes",
